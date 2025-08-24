@@ -1,0 +1,55 @@
+title: Griha~Antara
+e-mail: grihaantara@gmail.com
+description: >-
+  Design that redefines beauty - Professional Interior Design Studio specializing in 
+  custom decor, renovation, and creating beautiful living spaces.
+baseurl: ""
+url: "https://grihaantara.in"
+repository: grihaantara/grihaantara.github.io
+
+# Theme settings
+theme: jekyll-agency
+author: Griha~Antara
+copyright: "Copyright &copy; Griha~Antara 2025"
+
+# Social Media
+social:
+  instagram: griha_antara
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
+# Navigation
+nav:
+  - title: "Services"
+    section: services
+  - title: "Portfolio"
+    section: portfolio
+  - title: "About"
+    section: about
+  - title: "Contact"
+    section: contact
+
+# Hero Section
+header:
+  title: "Griha~Antara"
+  text: "Design that redefines beauty"
+  button: "View Our Work"
+  buttonlink: "#portfolio"
+
+# Services Section
+services:
+  - title: "Interior Design"
+    icon: fas fa-home
+    desc: "Transforming spaces into beautiful, functional environments that reflect your style and personality."
+  
+  - title: "Custom Decor"
+    icon: fas fa-palette
+    desc: "Unique decorative elements and custom-made pieces that add character to your space."
+  
+  - title: "Renovation"
+    icon: fas fa-tools
+    desc: "Complete renovation services to revitalize and modernize your living spaces.",
